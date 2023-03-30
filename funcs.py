@@ -1,13 +1,12 @@
-a = int(input("Введите первое число: "))
-b = int(input("Введите второе число: "))
+def funcs():
+    a = int(input("Введите первое число: "))
+    b = int(input("Введите второе число: "))
+    sum_s = a + b
+    print("sum:", sum_s)
 
-sum = a + b
 
-print("sum:", sum)
-
-aa = int(input("Введите первое число: "))
-bb = int(input("Введите второе число: "))
-
-sum = aa - bb
-
-print("sum:", sum)
+def my_funcs():
+    aa = int(input("Введите первое число: "))
+    bb = int(input("Введите второе число: "))
+    sum_b = aa - bb
+    print("sum:", sum_b)
